@@ -1,5 +1,5 @@
 # Blogr platform
 
-in porgress
+in progress
 
 ![workflow !!](second.gif)
