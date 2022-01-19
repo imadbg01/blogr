@@ -37,10 +37,8 @@
             </section>
         </div>
     </main>
-    <div class="my-5">
-        <section
-            class="h-[50vh] bg-Very-dark-blue rounded-tr-[35%] rounded-bl-[25%] flex justify-between items-center gap-4"
-        >
+    <div class="my-5 h-min bg-Very-dark-blue rounded-tr-[35%] rounded-bl-[25%]">
+        <section class="container flex items-center justify-between gap-4 m-auto">
             <img src="../../assets/illustration-phones.svg" alt />
             <article class="w-3/6 px-4 text-center text-White">
                 <h2 class="py-4 text-2xl font-ubuntu">State of the Art Infrastructure</h2>
@@ -58,9 +56,9 @@
             <img src="../../assets/illustration-laptop-desktop.svg" alt class="h-full" />
         </section>
         <section class="w-2/4">
-            <article>
-                <h2>Free, open, simple</h2>
-                <p>
+            <article class="p-4 px-2 mb-4">
+                <h2 class="py-4 text-xl font-ubuntu">Free, open, simple</h2>
+                <p class="text-Very-dark-grayish-blue">
                     Blogr is
                     a free and open source application backed by a large community of helpful
                     developers. It supports features such as code syntax highlighting, RSS
@@ -69,9 +67,9 @@
                     relatively easy to learn.
                 </p>
             </article>
-            <article>
-                <h2>Powerful tooling</h2>
-                <p>
+            <article class="px-2 py-4">
+                <h2 class="mb-4 text-xl font-ubuntu">Powerful tooling</h2>
+                <p class="text-Very-dark-grayish-blue">
                     Batteries included. We built a
                     simple and straightforward CLI tool that makes customization and deployment
                     a breeze, but capable of producing even the most complicated sites.
