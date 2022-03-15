@@ -1,5 +1,6 @@
 <script setup>
 import Header from "./Header.vue";
+import Hero from "./Hero.vue";
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import Header from "./Header.vue";
       <!-- Container -->
       <div class="w-full h-full px-16 py-8 mx-auto">
         <Header />
+        <Hero />
       </div>
     </div>
   </div>

@@ -12,15 +12,15 @@ function toggle() {
 </script>
 
 <template>
-  <header class="flex items-center gap-x-12">
+  <header class="flex items-center gap-x-6">
     <div>
       <img src="../../assets/logo.svg" alt="blogr logo" />
     </div>
     <div class="flex-1">
       <button
         @click="toggle"
-        aria-controls="navLinks"
-        class="absolute p-1 transition duration-300 ease-out cursor-pointer top-5 right-5 md:hidden"
+        aria-controls="navigation"
+        class="absolute p-1 transition duration-300 ease-out cursor-pointer top-8 right-16 md:hidden"
       >
         <img
           v-if="isOpen !== true"
@@ -37,7 +37,7 @@ function toggle() {
       </button>
       <div
         :class="[isOpen ? ['ml-0', 'inset-8'] : '-ml-[150%]']"
-        class="absolute mt-16 transition-all duration-500 bg-White md:flex md:static md:m-0 md:justify-between md:items-center md:bg-transparent md:text-White"
+        class="absolute mt-12 transition-all duration-500 ease-out bg-White md:flex md:static md:m-0 md:justify-between md:items-center md:bg-transparent md:text-White sm:shadow-Grayish-blue min-h-min"
       >
         <Nav />
 
