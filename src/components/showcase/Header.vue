@@ -37,7 +37,7 @@ function toggle() {
       </button>
       <div
         :class="[isOpen ? ['ml-0', 'inset-8'] : '-ml-[150%]']"
-        class="absolute mt-12 transition-all duration-500 ease-out bg-White md:flex md:static md:m-0 md:justify-between md:items-center md:bg-transparent md:text-White sm:shadow-Grayish-blue min-h-min"
+        class="absolute py-16 mt-12 transition-all duration-500 ease-out bg-White md:flex md:static md:m-0 md:justify-between md:items-center md:bg-transparent md:text-White sm:shadow-Grayish-blue min-h-min"
       >
         <Nav />
 
