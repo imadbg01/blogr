@@ -5,7 +5,7 @@ import Hero from "./Hero.vue";
 
 <template>
   <div
-    class="h-[90vh] bg-gradient-to-bl from-light-red to-very-light-red rounded-bl-[6rem]"
+    class="h-[90vh] bg-gradient-to-bl from-light-red to-very-light-red rounded-bl-[6rem] font-overpass"
   >
     <div
       class="h-full bg-center bg-hero-pattern rounded-bl-[6rem] md:bg-bg-pattern-desktop"
