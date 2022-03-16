@@ -44,7 +44,7 @@ function toggle() {
         <form
           action="#"
           method="post"
-          class="flex flex-col items-center self-end justify-between gap-4 py-6 m-auto mx-6 border-t md:flex-row border-t-Grayish-blue md:border-none md:p-0 md:mx-0"
+          class="flex flex-col items-center self-end justify-between gap-4 py-6 m-auto mx-6 border-t md:py-0 md:flex-row border-t-Grayish-blue md:border-none md:p-0 md:mx-0"
         >
           <Button
             textContent="login in"
