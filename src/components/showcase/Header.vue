@@ -37,14 +37,14 @@ function toggle() {
       </button>
       <div
         :class="[isOpen ? ['ml-0', 'inset-8'] : '-ml-[150%]']"
-        class="absolute py-16 mt-12 transition-all duration-500 ease-out bg-White md:flex md:static md:m-0 md:justify-between md:items-center md:bg-transparent md:text-White sm:shadow-Grayish-blue min-h-min"
+        class="absolute mt-12 transition-all duration-500 ease-out bg-White md:flex md:static md:m-0 md:justify-between md:items-center md:bg-transparent md:text-White sm:shadow-Grayish-blue min-h-min"
       >
         <Nav />
 
         <form
           action="#"
           method="post"
-          class="flex flex-col items-center self-end justify-between gap-4 pt-4 m-auto mx-6 border-t md:flex-row border-t-Grayish-blue md:border-none md:p-0 md:mx-0"
+          class="flex flex-col items-center self-end justify-between gap-4 py-6 m-auto mx-6 border-t md:flex-row border-t-Grayish-blue md:border-none md:p-0 md:mx-0"
         >
           <Button
             textContent="login in"
